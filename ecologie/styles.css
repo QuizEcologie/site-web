@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background-image: url('amazonine.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 700vh;
+}
+
+.container {
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), transparent), url(aventure.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0.8%;
+}
+
+nav {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    text-align: right;
+    padding: 20px 40px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.text-box {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    color: transparent;
+}
+
+.text-box p {
+    font-size: 100px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.text-box h1 {
+    font-size: 140px;
+    line-height: 140px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+
+}
+
+.text-box h3 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 85px;
+}
+
+.text-box a {
+    color: #c6c4c4;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
+
+.text-box a span {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+span {
+    color: #fff;
+}
+footer{
+    padding-top: 200px;
+    width: 100%;
+    height: 300px;
+position: absolute;
+bottom: 0;
+text-align: center;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.cartes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.carte {
+    width: 200px;
+    height: 300px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease; /* Transition pour un effet fluide */
+}
+
+.carte:hover {
+    transform: scale(1.1); /* Agrandissement au survol */
+}
